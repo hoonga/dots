@@ -1,0 +1,26 @@
+# avoid dangers
+alias mv='mv -i'
+alias cp='cp -i'
+alias rm='rm -i'
+
+# shorter rm -rf
+alias rmrf='rm -rf'
+
+# ssh
+alias hoonga='ssh hoonga@hoonga.kr'
+alias martini='ssh etaphirho@martini.snucse.org'
+
+# nocolor
+alias nocolor=' sed -r "s/\x1B\[([0-9]{1,2}(;[0-9]{1,2})?)?[mGK]//g"'
+
+# exit status
+alias x='echo $?'
+
+# python
+alias py='python'
+alias py3='python3'
+alias venv='virtualenv'
+
+# bye bye vim
+alias vim='vim'
+alias vi='vim'
